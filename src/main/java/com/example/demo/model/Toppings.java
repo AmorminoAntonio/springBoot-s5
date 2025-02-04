@@ -1,15 +1,16 @@
-package com.example.demo.configClass;
-
+package com.example.demo.model;
 
 import lombok.*;
+
 
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
 @ToString
 
-public class PizzasXL extends Pizzas {
+public class Toppings {
     private String nome;
     private int calorie;
-    private double prezzoXL = 3.5;
+    private double prezzo;
 }
+

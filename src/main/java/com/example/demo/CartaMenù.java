@@ -1,15 +1,18 @@
-package com.example.demo.configClass;
+package com.example.demo;
 
 
+import com.example.demo.model.Drinks;
+import com.example.demo.model.Pizzas;
+import com.example.demo.model.Toppings;
 import lombok.*;
 import java.util.List;
 
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-@Getter
+@Data
 
-public class Menù {
+public class CartaMenù {
     private List<Pizzas> pizze;
     private List<Drinks> bevande;
     private List<Toppings> toppings;
